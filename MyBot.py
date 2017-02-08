@@ -3,10 +3,6 @@ from hlt import NORTH, EAST, SOUTH, WEST, STILL, Move, Square
 import random
 import sys
 
-f = open("/home/ubuntu/haliteBotPath.txt",'w')
-f.write("\n".join(sys.path))
-f.close()
-
 myID, game_map = hlt.get_init()
 hlt.send_init("PythonBot")
 
