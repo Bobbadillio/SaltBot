@@ -1,10 +1,9 @@
 import hlt
 from hlt import NORTH, EAST, SOUTH, WEST, STILL, Move, Square
 import random
-import sys
 
 myID, game_map = hlt.get_init()
-hlt.send_init("PythonBot")
+hlt.send_init("SaltBot")
 
 def assignMove(square):
   for direction, neighbor in enumerate(game_map.neighbors(square)):
