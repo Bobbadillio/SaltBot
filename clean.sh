@@ -1,0 +1,2 @@
+rm *.hlt
+rm *.log
